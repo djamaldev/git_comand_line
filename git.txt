@@ -1,0 +1,22 @@
+cd [to your path file]
+git init
+git status //state of git
+git add . //to add all files
+git commit -m "first commit" 
+if your change your file you shoud add this change
+git add . // to add changes file
+git commit - m "second commit"
+git log //to show all histories changes on your project
+git checkout [id] // id of commit to come back to this commit id
+the repository contain the project
+default branch is 'master' can contain multiple commit
+git checkout -b [name of branch] //to create new branch and switch to this new branch
+you can commit changes file to new branch (git add . , git commit -m "name of commit"
+git branch //to list all branches
+to upload to github
+1- git init
+2- git add README.md // if you want add redme file
+3- git commit -m "name of commit"
+3- git branch -M main //to create new branch when you finish the project you can switch to the default branch master to commit the final project
+4- git remote add origin [url_repository]
+5- git push -u origin main
