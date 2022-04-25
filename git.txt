@@ -25,3 +25,6 @@ to upload to github
 5- git push -u origin main
 if you want to overrid use:
 git push -f origin main
+delete repo:
+rm -rf .git
+git pull --rebase origin main => if there is another commit to the brunch
